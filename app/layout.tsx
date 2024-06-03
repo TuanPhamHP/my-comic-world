@@ -25,7 +25,7 @@ export default function RootLayout({
 					<p>Hi, im header from root layout</p>
 				</header>
 
-				<input type='text' placeholder='yaya' />
+				{/* <input type='text' placeholder='yaya' />  */}
 				{children}
 			</body>
 		</html>
