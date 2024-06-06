@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server';
 
-const isAuthenticated = (any: any) => false;
+const isAuthenticated = (any: any) => true;
 
 // Limit the middleware to paths starting with `/products/`
 export const config = {

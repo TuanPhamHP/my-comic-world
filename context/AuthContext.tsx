@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, PropsWithChildren } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 type User = {
 	// Định nghĩa kiểu User
